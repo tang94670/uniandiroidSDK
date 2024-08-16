@@ -1,0 +1,37 @@
+{
+	"name": "TestPlugin123",
+	"id": "Test-Plugin",
+	"version": "1.0",
+	"description": "测试安卓SDK插件123",
+	"_dp_type":"nativeplugin",
+	"_dp_nativeplugin":{
+		"android": {
+			"plugins": [
+				{
+					"type": "module",
+					"name": "Test-Plugin",
+					"class": "com.android.testplugin.TestModule"
+				}
+			],
+			"integrateType": "aar",
+			"dependencies": [
+
+			],
+			"compileOptions": {
+				"sourceCompatibility": "1.8",
+				"targetCompatibility": "1.8"
+			},
+			"abis": [
+				"armeabi-v7a",
+				"x86"
+			],
+			"minSdkVersion": "22",
+			"permissions": [
+
+			],
+			"parameters": {
+
+			}
+		}
+	}
+}
